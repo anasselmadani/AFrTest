@@ -1,5 +1,7 @@
 package com.test.usermanager.services;
 import com.test.usermanager.entities.User;
+import org.springframework.http.ResponseEntity;
+
 import  static  com.test.usermanager.services.UserRegistrationValidator.*;
 
 
@@ -10,14 +12,14 @@ public interface UserService {
      * @param  userId  user id
      * @return  user
      */
-    User findUser(Long userId);
+    ResponseEntity<User> findUser(Long userId);
 
     /**
      * add user from .
      * @param  user
      * @return  user added
      */
-    User addUsr(User user);
+    ResponseEntity<User>  addUsr(User user);
 
     /**
      * check if user valid to register.

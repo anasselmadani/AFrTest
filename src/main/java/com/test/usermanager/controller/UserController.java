@@ -20,15 +20,12 @@ public class UserController {
     @ApiOperation(value = "Return specific user by Id")
     @GetMapping("/{id}")
     public ResponseEntity<User> getUserById(@PathVariable Long id){
-        User user = userSvc.findUser(id);
-        return new ResponseEntity<>(user, HttpStatus.OK);
+        return  userSvc.findUser(id);
     }
 
     @ApiOperation(value = "Return the created user")
     @PostMapping("/add")
     public ResponseEntity<User> addUser(@RequestBody User user) {
-        User newUser = userSvc.addUsr(user);
-        System.out.print(newUser);
-        return new ResponseEntity<>(newUser, HttpStatus.CREATED);
+        return userSvc.addUsr(user);
     }
 }
