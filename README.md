@@ -12,7 +12,8 @@ there are 3 type of gender : -MALE -FEMALE -OTHER
 exemples of calls :
 <img width="960" alt="ECC2" src="https://user-images.githubusercontent.com/54291213/203402411-e0296b3e-afe4-4513-9ee9-3774a86015a9.png">
 
-<img width="960" alt="00728" src="https://user-images.githubusercontent.com/54291213/203402439-9638f371-e40d-44ea-bbc2-095e90c438bf.png">
+<img width="960" alt="SSSSSSSSSSSSSSSSSSSSSSS" src="https://user-images.githubusercontent.com/54291213/203606090-696e1995-6723-4164-be22-45be5fa92096.png">
+
 
 <img width="959" alt="ECCC1" src="https://user-images.githubusercontent.com/54291213/203402461-d93cbd54-f3e6-4f59-9558-eaade15036b0.png">
 
