@@ -1,4 +1,4 @@
-# AirFranceTest
+# AFrTest
 
 to build project from sources : go to project directory launch mvn install then you will find a jar on target directory with name userManager-0.0.1-SNAPSHOT.jar go to directory and run: java -jar userManager-0.0.1-SNAPSHOT.jar or if you use IDE maven plugin run mvn spring-boot:run .
 
