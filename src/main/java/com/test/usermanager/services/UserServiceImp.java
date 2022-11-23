@@ -2,7 +2,6 @@ package com.test.usermanager.services;
 
 import com.test.usermanager.entities.User;
 import com.test.usermanager.exceptions.UserException;
-import com.test.usermanager.exceptions.UserNotFoundException;
 import com.test.usermanager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,7 +18,7 @@ public class UserServiceImp implements UserService {
     @Override
     public ResponseEntity<User>  findUser(Long userId) {
         User user =userRepository.findUserById(userId).orElseThrow(()-> new UserException(HttpStatus.NOT_FOUND,"User note found"));
-        return new ResponseEntity<>(user, HttpStatus.CREATED);
+        return new ResponseEntity<>(user, HttpStatus.OK);
     }
 
     @Override
